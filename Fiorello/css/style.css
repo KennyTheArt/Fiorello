@@ -1,0 +1,145 @@
+.header_top {
+        display: flex;
+        justify-content: space-between;
+        height: 7rem;
+        width: 100%;
+}
+
+
+
+.header_left img {
+
+        width: 20rem;
+}
+
+
+nav ul {
+        margin-top: .2rem;
+        display: flex;
+        justify-content: space-between;
+
+}
+
+nav ul li {
+        
+        margin-right: 5rem;
+}
+nav a {
+        color: black;
+}
+
+.header-right a {
+        color: black;
+        margin-right: 1.5rem;
+}
+  
+.header-bottom {
+        height: 46rem;
+        font-family: "Playfair Display";
+        position: relative;
+        width: 100%;
+}
+
+.header-bg {
+        background-image: url(../image/image/header-bottom.jpg);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        z-index: -1;
+        height: 46rem ;
+}
+
+.all {
+        margin: 0rem 15rem;
+        padding-top: 10rem;
+        padding-bottom: 0;
+}
+.bottom-h1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        font-family: "Playfair Display";
+}
+.bottom-p{
+        line-height: 3rem;
+        margin-bottom: 3rem;
+        font-family: "Playfair Display";
+}
+
+
+
+#section1{
+        height: 112rem;
+        font-family: 'Roboto', sans-serif;
+
+        
+}
+.main-top{
+        height: 5rem;
+        width: 100%;
+}
+.main-left{
+        margin-top: 2rem;
+        width: 55%;
+        float: left;
+}
+.main-left ul{
+        display: flex;
+        justify-content: space-between;
+}
+
+.main-top ul li {
+        margin-right: 2.5rem;
+}
+.main-left ul a{
+        color: black;
+}
+.main-left ul a:hover{
+        color: red;
+        transition: .6s;
+}
+
+.main-right{
+        margin-top: 2.2rem;
+        float: right;
+        width: 35%;
+        
+}
+.main-right h6{
+        text-align: right;
+        font-size: 12px !important; 
+}
+
+
+
+.main-bottom{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        height: 100rem;
+}
+.main-box{
+        height: 47rem;
+        width: 23%;
+        margin-bottom: 3rem;
+}
+.main-box-image img{
+        width: 100%;
+}
+.main-box-h6 h6{
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 1.4rem;
+}
+.main-box-span{
+        margin-top: 1rem;
+       text-align: center; 
+       color: rgb(121, 121, 121);
+       font-size: 1.2rem;
+}
+#sp-159{
+        color: black ;
+
+}

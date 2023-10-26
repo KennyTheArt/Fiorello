@@ -1,0 +1,566 @@
+/* header */
+/* top */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Dropdown arka plan rengi */
+    min-width: 160px; /* Dropdown genişliği */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black; /* Dropdown metin rengi */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Hover durumunda dropdown arka plan rengi */
+}
+
+
+
+.header-top {
+        display: flex;
+        justify-content: space-between;
+        height: 7rem;
+}
+
+#container {
+        display: flex;
+        justify-content: space-between;
+}
+
+
+/* header */
+/* top */
+/* nav */
+
+nav ul {
+        margin-top: .2rem;
+        display: flex;
+        justify-content: space-between;
+
+}
+
+nav ul li {
+
+        margin-right: 5rem;
+}
+
+nav a {
+        color: black;
+}
+
+.header-right a {
+        color: black;
+        margin-right: 1.5rem;
+}
+
+
+
+
+/* header */
+/* bottom */
+
+
+
+.header-bottom {
+        height: 46rem;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+}
+
+.header-bg {
+        background-image: url(../image/image/header-bottom.jpg);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        z-index: -1;
+        height: 46rem;
+}
+
+.all {
+        margin: 0rem 15rem;
+        padding-top: 10rem;
+        padding-bottom: 0;
+}
+
+.bottom-h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+}
+
+.bottom-p {
+        line-height: 3rem;
+        margin-bottom: 3rem;
+}
+
+
+
+
+/* main  */
+/* section1 */
+/* top */
+
+
+
+
+#section1 {
+        height: 107rem;
+        font-family: 'Roboto', sans-serif;
+
+}
+
+.main-top {
+        height: 5rem;
+}
+
+.main-left {
+        margin-top: 7rem;
+
+}
+
+.main-left ul {
+        display: flex;
+        justify-content: space-between;
+}
+
+.main-top ul li {
+        margin-right: 2.5rem;
+}
+
+.main-left ul a {
+        color: black;
+}
+
+.main-left ul a:hover {
+        color: red;
+        transition: .6s;
+}
+
+.main-right {
+        float: right;
+}
+
+.main-right h6 {
+        text-align: right;
+}
+
+
+
+
+/*main  */
+/* section1 */
+/* bottom */
+
+
+
+
+
+.main-bottom {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        height: 100rem;
+}
+
+.main-box {
+        height: 47rem;
+        width: 23%;
+        margin-bottom: 3rem;
+}
+
+.main-box-image img {
+        width: 100%;
+}
+
+.main-box-h6 h6 {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 1.4rem;
+}
+
+.main-box-span {
+        margin-top: 1rem;
+        text-align: center;
+        color: rgb(121, 121, 121);
+        font-size: 1.2rem;
+}
+
+#sp-159 {
+        color: black;
+
+}
+
+
+
+/* main */
+/* section2 */
+
+
+
+#section2 {
+        background-color: #F7F7F7;
+        margin-top: 10rem;
+        height: 60rem;
+}
+
+#section2 .section2-div {
+        display: flex;
+        justify-content: space-between;
+}
+
+.section2-left {
+        width: 50%;
+}
+
+.section2-left i {
+        position: relative;
+        color: red;
+        font-size: 10rem;
+        margin-left: 30rem;
+        margin-top: 17rem;
+
+}
+
+
+
+.section2-right {
+        margin-left: 1rem;
+        margin-top: 2rem;
+        font-size: 2.5rem;
+        line-height: 5.5rem;
+}
+
+
+#span-valentine {
+        color: red;
+}
+
+.section2-right i {
+        color: red;
+}
+
+.section2-left img {
+        position: absolute;
+        width: 45%;
+}
+
+
+
+
+/* main */
+/* section3*/
+/* top */
+
+
+
+
+#section3 {
+        height: 85rem;
+}
+
+.section3-all {
+        margin-top: 15rem;
+}
+
+.section3-top {
+        height: 20rem;
+}
+
+.section3-top h2,
+.section3-top p {
+        text-align: center;
+        margin-bottom: 2rem;
+}
+
+.section3-top h2 {
+        font-size: 4rem;
+}
+
+.section3-top p {
+        font-size: 2.5rem;
+        color: grey;
+}
+
+
+
+
+/* main */
+/* section3 */
+/* bottom */
+
+.section3-bottom {
+        height: 50rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+.section3-bottom .bottom-all {
+
+        width: 23%;
+        text-align: center;
+        overflow: auto;
+        height: 35rem;
+}
+
+.section3-bottom .bottom-img {
+        width: 100%;
+
+}
+
+.section3-bottom h6 {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2rem;
+}
+
+.section3-bottom span {
+        font-size: 1.5rem;
+}
+
+
+
+
+/* main */
+/* section4 */
+
+
+
+
+#section4 {
+        height: 60rem;
+}
+
+.section4-all {
+        width: 100%;
+}
+
+.section4-bg {
+        position: absolute;
+        width: 100%;
+        height: 60rem;
+        background-image: url(../image/image/attachment.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        z-index: -1;
+}
+
+.section4-text {
+        text-align: center;
+        padding-bottom: 0;
+        padding: 12rem;
+}
+
+.section4-text form {
+        margin-top: 3rem;
+}
+
+.section4-text input {
+        padding-right: 35rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+}
+
+.section4-text a {
+        padding: 2rem 5rem;
+        background-color: #FF3D2A;
+        color: #fff;
+}
+
+.section4-text h3 {
+        color: #fff;
+        font-size: 4rem;
+        margin-top: 10rem;
+}
+
+
+
+
+/* main */
+/* section5 */
+/* top */
+
+
+
+
+
+#section5 {
+        height: 80rem;
+        background-color: #F7F7F7;
+}
+
+.section5-all {
+        margin-top: 10rem;
+}
+
+.section5-top h2 {
+        padding-top: 10rem;
+        text-align: center;
+        font-size: 4.5rem;
+        margin-bottom: 1.5rem;
+}
+
+.section5-top p {
+        text-align: center;
+        font-size: 2rem;
+}
+
+
+
+/* main */
+/* section5 */
+/* bottom */
+
+
+
+.section5-bottom {
+        margin-top: 5rem;
+        height: 50rem;
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+}
+
+.section5-imgs {
+        width: 100%;
+        height: 45rem;
+}
+
+.section5-img img {
+        width: 95%;
+}
+
+
+.section5-text h5 {
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2.5rem;
+}
+
+.section5-text p {
+        margin-top: 2rem;
+        text-align: center;
+}
+
+/* .section5-img span {
+        
+        color: #000 ;
+        background-color: #fff;
+        padding: 1.5rem;
+} */
+
+
+
+/* main */
+/* section6 */
+
+
+
+#section6 {
+        height: 45rem;
+}
+
+.section6-quad {
+        height: 45rem;
+}
+
+.quad1 {
+        margin-top: 15rem;
+        margin-left: 55rem;
+        width: 50%;
+}
+
+.quad1-img img {
+        width: 10%;
+}
+
+
+
+/* footer */
+
+footer {
+        background-color: #FEFAF3;
+        height: 62rem;
+}
+
+footer .container {
+        padding-top: 8rem;
+}
+
+footer .container .text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+footer .container .text .text-box {
+        height: 33rem;
+        text-align: center;
+}
+
+footer .container .text .text-box h4 {
+        padding: 10px 0px;
+        font-family: monospace;
+        font-size: 16px;
+        letter-spacing: 1px;
+}
+
+footer .container .text .text-box p {
+        color: #505050;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer .container .text .text-box p:hover {
+        transition: 0.3s;
+        cursor: pointer;
+        color: #F34F3F;
+}
+
+footer .container .sponsors {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-between;
+}
+
+footer .container .sponsors .content {
+        height: 4rem;
+        text-align: center;
+        padding-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+}
+
+footer .container .sponsors .content img {
+        height: 70%;
+        width: 70%;
+        margin: auto;
+}
+
+footer .container .sponsors .content p {
+        font-size: 13px;
+}
+
+footer .container .sponsors .content p:hover {
+        transition: 0.3s;
+        cursor: pointer;
+        color: #F34F3F;
+}
